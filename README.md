@@ -3,9 +3,9 @@
 ## Overview
 This repository contains the data and code associated with our paper: Accurate prediction of thermoresponsive phase behavior of disordered proteins. The repository is organized into two main folders:
 
-- **Data/**: Contains the data used to generate each figure in the paper.
-- **Code/**: Contains the code necessary for simulations and analysis.
-- **Model Parameter Tables/**: Contains the full parameter tables for well-depth energies for Models 1, 2, 3.
+- **Data**: Contains the data used to generate each figure in the paper.
+- **Code**: Contains the code necessary for simulations and analysis.
+- **Model Parameter Tables**: Contains the full parameter tables for well-depth energies for Models 1, 2, 3.
 
 ## Code Folder Contents
 The **Code/** folder includes the following:
