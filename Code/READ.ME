@@ -1,0 +1,16 @@
+# README
+
+## Contents
+- **Revised_WF_Implementation/**: Contains the implementation of the Wang-Frenkel potential from **Equation 5** in our paper.
+- **Single_Chain_Simulations/**: Example simulation for a single protein.
+  - Before running, copy the appropriate `input-script.dat` file from the `input_script_files/` folder corresponding to the desired temperature.
+  - Copy the respective `set_pair_param-Mpipi-T.dat` file from the `set_pair_param_files/` folder for the chosen temperature.
+- **Multiple_Chain_Simulations/**: Example simulation for multiple proteins.
+  - Before running, copy the appropriate `input-script.dat` file from the `input_script_files/` folder corresponding to the desired temperature.
+  - Copy the respective `set_pair_param-Mpipi-T.dat` file from the `set_pair_param_files/` folder for the chosen temperature.
+- **amino_acid_numbers.txt**: Lists the amino acid name corresponding to each bead number in the input structure files.
+  - Beads **1 through 20** correspond to the parameterized Mpipi-T model.
+  - Beads **21 through 40** retain the parameters from the original Mpipi model.
+
+## Usage
+Refer to the respective folders for detailed instructions on running simulations. Ensure all required input files are copied before execution.

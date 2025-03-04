@@ -1,0 +1,19 @@
+# Revised Wang-Frenkel Implementation
+
+## Overview
+This folder contains the implementation of the Wang-Frenkel potential in LAMMPS, corresponding to **Equation 5** from our paper:  
+**Accurate prediction of thermoresponsive phase behavior of disordered proteins**  
+by *Ananya Chakravarti* and *Jerelle A. Joseph*.
+
+## Requirements
+- **LAMMPS (Aug 2024 version)**
+- **EXTRA-PAIR package** (must be compiled with LAMMPS)
+
+## Installation Instructions
+1. Copy the provided files **pair_wfac_cut.cpp** and **pair_wfac_cut.h** into the `src/EXTRA-PAIR/` directory of the LAMMPS source code.
+2. Recompile LAMMPS with the **EXTRA-PAIR** package using:
+   ```sh
+   cd /path/to/lammps/src
+   make yes-extra-pair
+   make mpi  # or the appropriate build option for your system
+
