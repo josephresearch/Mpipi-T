@@ -8,7 +8,7 @@ This repository contains the data and code associated with our paper: Accurate p
 - **Model Parameter Tables**: Contains the full parameter tables for well-depth energies for Models 1, 2, 3.
 
 ## Code Folder Contents
-The **Code/** folder includes the following:
+The **Code** folder includes the following:
 
 1. **Revised Wang-Frenkel Potential Implementation**: The updated implementation used in our simulations. This implementation must be compiled in LAMMPS in order to run the simulations below.
 2. **Single Protein Chain Simulations**: Example input files for simulating single protein chains using Models 1, 2, and 3.
